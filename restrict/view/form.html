@@ -1,0 +1,31 @@
+<form method="post" action="?class=Form&method=salvar">
+  <input type="hidden" name="id" value="{id}" />
+  <div>
+    <label for="nome">Nome:</label>
+    <input
+      type="text"
+      name="nome"
+      id="nome"
+      required
+      maxlength="50"
+      value="{nome}"
+    />
+  </div>
+  <div>
+    <label for="localizacao">Localização:</label>
+    <input
+      type="text"
+      name="localizacao"
+      id="localizacao"
+      required
+      value="{localizacao}"
+    />
+  </div>
+  <div>
+    <label for="atracoes">Atrações:</label>
+    <textarea name="atracoes" id="config" required>{atracoes}</textarea>
+  </div>
+  <div>
+    <button type="submit">Salvar</button>
+  </div>
+</form>
